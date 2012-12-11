@@ -49,3 +49,21 @@ rm -rf %buildroot
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Mon Apr 25 2011 Funda Wang <fwang@mandriva.org> 0.300.0-3mdv2011.0
++ Revision: 658549
+- rebuild for updated spec-helper
+
+* Tue Jul 13 2010 Jérôme Quelin <jquelin@mandriva.org> 0.300.0-2mdv2011.0
++ Revision: 552181
+- rebuild
+
+* Sun Jul 12 2009 Jérôme Quelin <jquelin@mandriva.org> 0.300.0-1mdv2010.0
++ Revision: 395361
+- import perl-Test-Harness-Straps
+
+
+* Sun Jul 12 2009 cpan2dist 0.30-1mdv
+- initial mdv release, generated with cpan2dist
